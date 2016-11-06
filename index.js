@@ -74,13 +74,14 @@ exports.handler = function( event, context ) {
     }
 
     if (event.request.type === "LaunchRequest") {
-        say = "Welcome to State Pop!  Say the name of a U.S. State.";
+        say = "Welcome to Drunk Checker.";
 
     } else {
+        say = "You Drunk.";
         var IntentName = event.request.intent.name;
 
         if (IntentName === "StateRequestIntent") {
-
+            say = "YOU GOOD!";
             if (event.request.intent.slots.usstate.value) {
 
                 myState = event.request.intent.slots.usstate.value;
@@ -94,7 +95,7 @@ exports.handler = function( event, context ) {
 
                     }
                 }
-                say = "The population of " + myState + " is " + pop;
+                //say = "The population of " + myState + " is " + pop;
 
                 // add the state to a session.attributes array
                 if (!sessionAttributes.requestList) {
