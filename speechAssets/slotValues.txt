@@ -1,0 +1,87 @@
+
+{
+  "intents": [
+    {
+      "intent": "GenderRequest",
+      "slots":[
+        {
+          "name":"gender",
+          "type":"gender"
+        }
+      ]
+    },
+    {
+      "intent": "UserRequest",
+      "slots":[
+        {
+          "name":"gender",
+          "type":"gender"
+        },
+        {
+          "name":"weight",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name":"numberOfDrinks",
+          "type":"AMAZON.NUMBER"
+        },
+        {
+          "name":"hours",
+          "type":"AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "HoursRequest",
+      "slots":[
+        {
+          "name":"hours",
+          "type":"AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "WeightRequest",
+      "slots":[
+        {
+          "name":"weight",
+          "type":"AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "DrinkRequest",
+      "slots":[
+        {
+          "name":"numberOfDrinks",
+          "type":"AMAZON.NUMBER"
+        }
+      ]
+    },
+    { "intent" : "CalculateRequest"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.YesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+
+  ]
+}
+

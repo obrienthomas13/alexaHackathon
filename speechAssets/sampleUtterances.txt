@@ -1,0 +1,15 @@
+GenderRequest My gender is {gender}
+GenderRequest I am a {gender}
+HoursRequest I drank {hours} hours ago
+HoursRequest I drank {hours} hour ago
+WeightRequest My weight is {weight}
+WeightRequest I weigh {weight} pounds
+DrinkRequest I have had {numberOfDrinks} drinks
+DrinkRequest I drank {numberOfDrinks} drinks
+CalculateRequest Calculate
+CalculateRequest Should I drive
+CalculateRequest How am I
+CalculateRequest What is my blood alcohol level
+UserRequest I am a {gender} who weighs {weight} pounds and drank {numberOfDrinks} drinks {hours} hours ago
+UserRequest I am a {gender} who weighs {weight} pounds and drank {numberOfDrinks} drinks {hours} hour ago
+AMAZON.StartOverIntent Restart
